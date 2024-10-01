@@ -6,6 +6,7 @@ require Pod::Executable.execute_command('node', ['-p',
   )', __dir__]).strip
 
 platform :ios, min_ios_version_supported
+require_relative '../node_modules/react-native-permissions/scripts/setup'
 prepare_react_native_project!
 
 linkage = ENV['USE_FRAMEWORKS']
@@ -22,6 +23,14 @@ target 'EchoCal' do
     # An absolute path to your application root.
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
+  setup_permissions([
+  'Microphone',
+  # Add any other permissions your app needs, such as:
+  # 'Camera',
+  # 'PhotoLibrary',
+  # 'Calendars',
+  # etc.
+])
 
   target 'EchoCalTests' do
     inherit! :complete

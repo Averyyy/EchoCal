@@ -1,0 +1,20 @@
+{
+  "settings": "Settings",
+  "go_back": "< Go back",
+  "recording": "Recording...",
+  "press_and_hold": "Hold to speak",
+  "title": "Title",
+  "date": "Date",
+  "time": "Time",
+  "notes": "Notes",
+  "accept": "Accept",
+  "success": "Event added successfully",
+  "no_transcription": "No speech detected. Please try again.",
+  "event_added": "Event added to calendar",
+  "type_or_speak": "type_or_speak",
+  "suggestionByAi": "Here is a suggestion for you. Do you want to add this event to your calendar?",
+  "select_model": "Language model",
+  "select_language": "Language",
+  "save_settings": "Save settings",
+  "local_model": "Local model"
+}
