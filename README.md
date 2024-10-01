@@ -15,19 +15,20 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/echocal.git
-   cd echocal
+   git clone https://github.com/Averyyy/echocal.git
+   cd EchoCal
    ```
 
-2. Install the dependencies:
+2. Install the dependencies (for ios):
 
    ```bash
-   npm install
+   npm install && npx pod-install
    ```
 
 3. Start the app:
    ```bash
-   npm start
+   npx react-native run-ios
+   npx react-native start
    ```
 
 ## Usage
