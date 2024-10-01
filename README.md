@@ -8,7 +8,7 @@
 - **Smart Event Suggestions:** Get real-time suggestions for calendar events based on the transcribed text.
 - **Seamless Integration:** Automatically add events to your Google Calendar.
 - **Minimalistic UI:** Clean and simple UI with smooth animations.
-- **Multi-Platform Support:** Works across both iOS and Android devices.
+- **Multi-Platform Support:** Works across both iOS and Android devices. (iOS only for now)
 
 ## Setup and Installation
 
